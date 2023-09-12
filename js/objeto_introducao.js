@@ -8,10 +8,10 @@ const car = {
   velocidade: 10,
   combustivel: "Gasolina",
   escolheCor: function (cor) {
-    return cor;
+    return this.cor;
   },
   acelera: function(velocidade){
-    return velocidade = velocidade +11;
+    return this.velocidade = velocidade +1;
   }
 };
 //acessando os atributos do objeto
